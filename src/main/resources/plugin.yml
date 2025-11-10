@@ -1,0 +1,4 @@
+name: ClanPlugin
+version: '1.0-SNAPSHOT'
+main: net.milocodee.clans.ClanPlugin
+api-version: '1.21'
