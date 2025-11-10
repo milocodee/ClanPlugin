@@ -6,4 +6,5 @@ data class Clan(
     val name: String,
     var leader: UUID,
     val members: MutableList<UUID> = mutableListOf()
+
 )

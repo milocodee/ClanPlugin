@@ -25,7 +25,7 @@ class ClanCommand(private val clans: ClanManager) : CommandExecutor {
             "join" -> JoinSubCommand(clans).run(sender, args)
             "leave" -> LeaveSubCommand(clans).run(sender)
             "info" -> InfoSubCommand(clans).run(sender)
-            else -> sender.sendMessage("§cUnknown clan command.")
+            else -> sender.sendMessage("§cUnknown clan command!")
         }
 
         return true

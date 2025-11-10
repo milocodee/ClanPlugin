@@ -17,6 +17,6 @@ class ClanPlugin : JavaPlugin() {
 
     override fun onDisable() {
         clanManager.saveClans()
-        logger.info("Clan-Data saved")
+        logger.info("Clan-Data saved.")
     }
 }

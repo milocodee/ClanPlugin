@@ -77,7 +77,7 @@ class LeaveSubCommand(private val clans: ClanManager) {
         }
 
         clans.leaveClan(player)
-        player.sendMessage("§eYou left the clan.")
+        player.sendMessage("§eYou left the clan!")
     }
 }
 

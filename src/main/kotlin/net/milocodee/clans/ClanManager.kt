@@ -23,7 +23,7 @@ class ClanManager(private val plugin: ClanPlugin) {
             val members = config.getStringList("$key.members").map { UUID.fromString(it) }.toMutableList()
             clans.add(Clan(key, leader, members))
         }
-        plugin.logger.info("Geladene Clans: ${clans.size}")
+        plugin.logger.info("Loaded Clans: ${clans.size}")
     }
 
     fun saveClans() {
