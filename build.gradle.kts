@@ -28,7 +28,7 @@ tasks {
     }
 }
 
-val targetJavaVersion = 21
+val targetJavaVersion = 24
 kotlin {
     jvmToolchain(targetJavaVersion)
 }
